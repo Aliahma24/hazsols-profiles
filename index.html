@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HazSols – Meet Our Team</title>
+  <meta name="description" content="Connect with HazSols professionals on LinkedIn. Explore our talented team of web developers, AI engineers, and mobile app specialists based in Lahore, Pakistan." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="https://www.hazsols.com" target="_blank" class="nav-logo">
+        <img src="HS.jpg" alt="HazSols Logo" class="logo-img" />
+        <span class="logo-text">HazSols</span>
+      </a>
+      <div class="nav-links">
+        <a href="https://www.hazsols.com" target="_blank" class="nav-link">Website</a>
+        <a href="https://www.hazsols.com/services" target="_blank" class="nav-link">Services</a>
+        <a href="mailto:aliramzan@hazsols.com" class="nav-link">Contact</a>
+        <a href="https://www.hazsols.com/contact" target="_blank" class="nav-cta" id="nav-hire-btn">Hire Us</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="https://www.hazsols.com" target="_blank">Website</a>
+      <a href="https://www.hazsols.com/services" target="_blank">Services</a>
+      <a href="mailto:aliramzan@hazsols.com">Contact</a>
+      <a href="https://www.hazsols.com/contact" target="_blank">Hire Us</a>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>Lahore, Pakistan · Open to Collaboration</span>
+      </div>
+      <h1 class="hero-title">
+        Meet the Team Behind
+        <span class="gradient-text">HazSols</span>
+      </h1>
+      <p class="hero-subtitle">
+        We help companies redefine the future through technology. Connect with our expert engineers, designers, and AI specialists directly on LinkedIn.
+      </p>
+      <div class="hero-actions">
+        <a href="#team" class="btn btn-primary" id="explore-team-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          Explore Team
+        </a>
+        <a href="https://www.hazsols.com/contact" target="_blank" class="btn btn-outline" id="work-with-us-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.16 6.16l.97-.97a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Work With Us
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number" data-target="4">0</span>
+          <span class="stat-label">Services</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="12">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Team Members</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number" data-target="50">0</span><span class="stat-suffix">+</span>
+          <span class="stat-label">Projects Delivered</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-indicator"></div>
+    </div>
+  </section>
+
+  <!-- ===== FILTER BAR ===== -->
+  <section class="filter-section" id="team">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Our <span class="gradient-text">Professionals</span></h2>
+        <p class="section-subtitle">Connect with our team on LinkedIn and discover how we can build the future together.</p>
+      </div>
+      <div class="filter-bar">
+        <div class="search-box">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <input type="text" id="search-input" placeholder="Search by name or role..." class="search-input" />
+        </div>
+        <div class="filter-tabs" id="filter-tabs">
+          <button class="filter-tab active" data-filter="all" id="filter-all">All</button>
+          <button class="filter-tab" data-filter="web" id="filter-web">Web</button>
+          <button class="filter-tab" data-filter="mobile" id="filter-mobile">Mobile</button>
+          <button class="filter-tab" data-filter="ai" id="filter-ai">AI & ML</button>
+          <button class="filter-tab" data-filter="design" id="filter-design">Design</button>
+          <button class="filter-tab" data-filter="management" id="filter-management">Management</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TEAM GRID ===== -->
+  <section class="team-section">
+    <div class="container">
+      <div class="team-grid" id="team-grid">
+        <!-- Cards rendered by JS -->
+      </div>
+      <div class="no-results" id="no-results" style="display:none;">
+        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <h3>No team members found</h3>
+        <p>Try adjusting your search or filter.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA SECTION ===== -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-card">
+        <div class="cta-glow"></div>
+        <div class="cta-content">
+          <div class="cta-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+          </div>
+          <h2>Ready to Build Something Amazing?</h2>
+          <p>Our team of experts is ready to help transform your business with cutting-edge technology. Let's connect on LinkedIn or reach out directly.</p>
+          <div class="cta-buttons">
+            <a href="https://www.linkedin.com/company/hazsols" target="_blank" class="btn btn-primary" id="linkedin-company-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+              Follow on LinkedIn
+            </a>
+            <a href="mailto:aliramzan@hazsols.com" class="btn btn-outline" id="email-contact-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              Email Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="HS.jpg" alt="HazSols Logo" class="logo-img" />
+            <span class="logo-text">HazSols</span>
+          </div>
+          <p>We help companies redefine the future through technology. Building tomorrow, today.</p>
+          <div class="footer-contact">
+            <span>📍 Lahore, Pakistan</span>
+            <span>📞 +92 309 447 1969</span>
+            <span>✉️ aliramzan@hazsols.com</span>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <a href="https://www.hazsols.com/services/web" target="_blank">Web Development</a>
+          <a href="https://www.hazsols.com/services/app" target="_blank">Mobile Apps</a>
+          <a href="https://www.hazsols.com/services/ai" target="_blank">AI & Machine Learning</a>
+          <a href="https://www.hazsols.com/services/custom-software" target="_blank">Custom Software</a>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <a href="https://www.hazsols.com/about" target="_blank">About Us</a>
+          <a href="https://www.hazsols.com/process" target="_blank">How We Work</a>
+          <a href="https://www.hazsols.com/contact" target="_blank">Contact</a>
+          <a href="https://www.hazsols.com/terms" target="_blank">Terms & Conditions</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 HazSols. All rights reserved.</p>
+        <p>Built with ❤️ in Lahore, Pakistan</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== PROFILE MODAL ===== -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal" id="profile-modal">
+      <button class="modal-close" id="modal-close" aria-label="Close modal">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+      <div class="modal-content" id="modal-content">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
